@@ -25,8 +25,8 @@ body {
 }
 .app {
   background-color: #222831;
-  width: 450px;
-  min-height: 200px;
+  width: 850px;
+  min-height: 250px;
   height: relative;
   border-radius: 15px;
   padding: 20px;
@@ -34,6 +34,7 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+
 .app:hover{
   box-shadow: 10px 10px 42px 0px rgba(0,0,0,8);
 }
@@ -89,7 +90,7 @@ button {
   padding: 5px;
   justify-content: flex-start;
   align-items: center;
-  border: 5px solid #f05454;
+  border: 2px solid #f05454;
   cursor: pointer;
 }
 
@@ -111,4 +112,7 @@ button:focus {
 
 button svg {
   margin-right: 5px;
+}
+.top{
+  width: 100%;
 }
